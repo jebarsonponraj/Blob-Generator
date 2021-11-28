@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Blob Generator</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="output">
+            <div id="blob">
+
+            </div>
+        </div>
+        <div class="height-width">
+            <div>
+                <label for="blob-height">Height</label>
+                <input type="number" class="inputs" id="blob-height" value="200">
+            </div>
+            <div>
+                <label for="blob-width">Width</label>
+                <input type="number" class="inputs" id="blog-width" value="200">
+            </div>
+        </div>
+        
+        <div class="sliders">
+            <input class="slider" type="range" value="30">
+            <input class="slider" type="range" value="80">
+            <input class="slider" type="range" value="60">
+            <input class="slider" type="range" value="40">
+        </div>
+        <input type="text" class="css-code" readonly>
+        <button id="copyBtn">Copy</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
